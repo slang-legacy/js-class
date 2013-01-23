@@ -27,6 +27,6 @@ I'm not really sure what you mean with this question. Strings and numbers are bo
 It should also be noted that these are not part of any standard, so they may not work in some JS enviroments. Also, these functions are executed synchronously, so your script cannot continue execution until the function returns. In a web-browser, this means that your UI freezes until it is clicked, which is very problematic for webapps.
 
 
-**And finally explain how and why you might use a parseInt()  when using a prompt.**
+**And finally explain how and why you might use a parseInt() when using a prompt.**
 
-`parseInt()` parses a string argument and returns an integer of the specified radix or base
+`parseInt()` parses a string & returns an int of the specified base/radix. This can be useful while using a prompt because the value returned by a prompt is a string. However, it is often easier to just use the unary plus operator: `var x = +"1000";` if your string is already in the form of a int.
