@@ -10,11 +10,11 @@ bar == 'baz'; //true
 ```
 `bar` gets assigned to the string `'baz'`, then `foo` gets assigned to `bar` (which is `'baz'`)
 
-The `var` statement is actually made to bind variables to the current scope. Without it, the intrepreter tries to assign to an existing variable in the next enclosing scope. This continues until either a variable with that name is found, or it reaches the global scope. This is a dangerous and widely critized feature of the language, thus it is reccomended to always use `var` while making a new variable to reduce the risk of polluting the global namespace.
+The `var` statement is actually made to bind variables to the current scope. Without it, the interpreter tries to assign to an existing variable in the next enclosing scope. This continues until either a variable with that name is found, or it reaches the global scope. This is a dangerous and widely criticized feature of the language, thus it is recommended to always use `var` while making a new variable to reduce the risk of polluting the global namespace.
 
 **Be sure to mention the difference when giving a value to a String vs a number.**
 
-I'm not really sure what you mean with this question. Strings and numbers are both primatives so there isn't really any difference in assigning them.
+I'm not really sure what you mean with this question. Strings and numbers are both primitives so there isn't really any difference in assigning them.
 
 **Also explain the differences in the three dialog boxes in this unit, Alert, Confirm, and Prompt.**
 
@@ -24,8 +24,7 @@ I'm not really sure what you mean with this question. Strings and numbers are bo
 
 `prompt()` Displays a dialog with a input box and returns the value entered as a string.
 
-It should also be noted that these are not part of any standard, so they may not work in some JS enviroments. Also, these functions are executed synchronously, so your script cannot continue execution until the function returns. In a web-browser, this means that your UI freezes until it is clicked, which is very problematic for webapps.
-
+It should also be noted that these are not part of any standard, so they may not work in some JS environments. Also, these functions are executed synchronously, so your script cannot continue execution until the function returns. In a web-browser, this means that your UI freezes until it is clicked, which is very problematic for webapps.
 
 **And finally explain how and why you might use a parseInt() when using a prompt.**
 
