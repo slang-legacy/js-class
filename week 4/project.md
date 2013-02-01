@@ -2,10 +2,10 @@
 
 In a html file create JavaScript code that uses buttons to control the text you have put into a div container using the innerHTML  which:
 
-1 Changes the Font Color to 4 different colors plus the original
-2 Changes the Font Size to 4 different sizes plus the original
-3 Changes the Font Family to 4 different font types plus the original
-4 Changes the Font Alignment to Left, Center or Right
+1. Changes the Font Color to 4 different colors plus the original
+2. Changes the Font Size to 4 different sizes plus the original
+3. Changes the Font Family to 4 different font types plus the original
+4. Changes the Font Alignment to Left, Center or Right
 
 ```html
 <!DOCTYPE html>
