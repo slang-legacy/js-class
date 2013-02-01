@@ -13,8 +13,7 @@ In a html file create JavaScript code that uses buttons to control the text you 
 	<body>
 		<script>
 			change = function(attr, opts){
-				value = prompt('what should the ' + attr + ' be set to?\n(' + opts + ')');
-				document.getElementById('changeMe').style[attr] = value;
+				document.getElementById('changeMe').style[attr] = prompt('what should the ' + attr + ' be set to?\n(' + opts + ')');
 			};
 		</script>
 		<input type="button" value="change color" onClick="change('color', 'red, blue, green, purple')">
