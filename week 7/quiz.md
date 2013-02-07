@@ -7,8 +7,7 @@ In a html file write the code that will create a create a string that is exactly
 <html>
 	<body>
 		<script>
-			str = Math.pow(Math.random(), 3)).toString(36).substring(2, 24)
-			alert(str + ' is ' + str.length + ' long')
+			alert((str = Math.pow(Math.random(), 3)).toString(36).substring(2, 24)) + ' is ' + str.length + ' long')
 		</script>
 	</body>
 </html>
